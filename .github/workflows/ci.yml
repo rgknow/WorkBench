@@ -62,6 +62,10 @@ jobs:
 				run: |
 					cd dashboard
 					npm run -s typecheck || npx tsc --noEmit
+					- name: Lint
+						run: |
+							cd dashboard
+							npm run -s lint
 					- name: Build
 				run: |
 					cd dashboard
