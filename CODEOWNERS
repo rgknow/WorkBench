@@ -1,0 +1,7 @@
+# Require review from owners in these areas
+/backend/         @nanoskool/backend-leads
+/dashboard/       @nanoskool/frontend-leads
+/maker_workbench/ @nanoskool/workbench-leads
+/edx_xblock/      @nanoskool/lms-leads
+/.github/         @nanoskool/maintainers
+*                 @nanoskool/maintainers

@@ -1,0 +1,13 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "nanoskool-xblock"
+version = "0.1.0"
+description = "NanoSkool Olympiad XBlock (starter)"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+  "XBlock>=1.8.0",
+]
