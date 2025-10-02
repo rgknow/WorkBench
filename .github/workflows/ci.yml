@@ -66,6 +66,10 @@ jobs:
 						run: |
 							cd dashboard
 							npm run -s lint
+							- name: Format check
+								run: |
+									cd dashboard
+									npm run -s format
 					- name: Build
 				run: |
 					cd dashboard
